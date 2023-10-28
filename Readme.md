@@ -32,8 +32,6 @@ create database tasks_app
 **4. Build and run the app using maven**
 
 ```bash
-
-```bash
 mvn spring-boot:run
 ```
 
