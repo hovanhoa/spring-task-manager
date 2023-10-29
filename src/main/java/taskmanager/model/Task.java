@@ -25,7 +25,7 @@ public class Task {
     @NotBlank
     private String description;
 
-    private boolean isCompleted;
+    private boolean completed;
 
     public Long getId() {
         return id;
@@ -48,12 +48,12 @@ public class Task {
     }
 
 
-    public boolean getIsCompleted() {
-        return isCompleted;
+    public boolean getcompleted() {
+        return completed;
     }
 
-    public void setIsCompleted(boolean isCompleted) {
-        this.isCompleted = isCompleted;
+    public void setcompleted(boolean completed) {
+        this.completed = completed;
     }
 
 }

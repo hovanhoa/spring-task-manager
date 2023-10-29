@@ -43,7 +43,7 @@ public class IndexController {
 
         task.setName(taskDetails.getName());
         task.setDescription(taskDetails.getDescription());
-        task.setIsCompleted(taskDetails.getIsCompleted());
+        task.setcompleted(taskDetails.getcompleted());
 
         Task updatedTask = taskRepository.save(task);
         return updatedTask;
